@@ -6,49 +6,55 @@
 const { response } = require("express");
 const express = require("express"),
   bodyParser = require("body-parser");
-  const path = require("path");
+const path = require("path");
 
 //server initilization starts here.
 app = express();
-app.use(express.static(path.resolve(__dirname, 'build')));
+app.use(express.static(path.resolve(__dirname, "build")));
 app.get("/", function (req, res) {
-  res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
+  res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
 const mapping = {
-'/webapp':'http://app.nivesh.com',
- "/gyan/all-you-should-know-about-liquid-funds": "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/" ,
- "/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns": "https://blog.nivesh.com/" ,
- "/gyan/take-baby-steps-towards-investment-with-ultra-short-term-funds": "https://blog.nivesh.com/mf/debt/what-are-ultra-short-term-funds" ,
- "/crm": "https://crm.nivesh.com" ,
- "/Providential_CMS": "https://crm.nivesh.com" ,
- '/webapp/':'http://app.nivesh.com',
- "/gyan/all-you-should-know-about-liquid-funds/": "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/" ,
- "/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns/": "https://blog.nivesh.com/" ,
- "/gyan/take-baby-steps-towards-investment-with-ultra-short-term-funds/": "https://blog.nivesh.com/mf/debt/what-are-ultra-short-term-funds" ,
- "/crm/": "https://crm.nivesh.com" ,
- "/Providential_CMS/": "https://crm.nivesh.com" 
-}
+  "/webapp": "http://app.nivesh.com",
+  "/gyan/all-you-should-know-about-liquid-funds":
+    "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/",
+  "/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns":
+    "https://blog.nivesh.com/",
+  "/gyan/take-baby-steps-towards-investment-with-ultra-short-term-funds":
+    "https://blog.nivesh.com/mf/debt/what-are-ultra-short-term-funds",
+  "/crm": "https://crm.nivesh.com",
+  "/Providential_CMS": "https://crm.nivesh.com",
+  "/webapp/": "http://app.nivesh.com",
+  "/gyan/all-you-should-know-about-liquid-funds/":
+    "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/",
+  "/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns/":
+    "https://blog.nivesh.com/",
+  "/gyan/take-baby-steps-towards-investment-with-ultra-short-term-funds/":
+    "https://blog.nivesh.com/mf/debt/what-are-ultra-short-term-funds",
+  "/crm/": "https://crm.nivesh.com",
+  "/Providential_CMS/": "https://crm.nivesh.com",
+};
 
 const externalUrls = Object.keys(mapping);
-const getRedirectUrl = (oldUrl)=>{
-  console.log('ext'+externalUrls)
-  console.log('old'+oldUrl)
-  console.log(mapping.hasOwnProperty(oldUrl))
-  const url = mapping.hasOwnProperty(oldUrl)? mapping[oldUrl]: '';
-  console.log('url'+url)
+const getRedirectUrl = (oldUrl) => {
+  console.log("ext" + externalUrls);
+  console.log("old" + oldUrl);
+  console.log(mapping.hasOwnProperty(oldUrl));
+  const url = mapping.hasOwnProperty(oldUrl) ? mapping[oldUrl] : "";
+  console.log("url" + url);
   return url;
-}
-const handleExternalUrls = (req, resp )=>{
+};
+const handleExternalUrls = (req, resp) => {
   const redirectURL = `${getRedirectUrl(req.baseUrl + req.path)}`;
-  console.log(req.query)
+  console.log(req.query);
   console.log(redirectURL);
   resp.status(301).redirect(redirectURL);
-}
+};
 
-app.use(externalUrls, handleExternalUrls );
+app.use(externalUrls, handleExternalUrls);
 app.get("*", function (req, res) {
-  res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
+  res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
 /**
@@ -84,7 +90,7 @@ app.use(function (req, res, next) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 80;
 app.listen(port);
 console.log(`Server is Started and listening on  ${port}`);
 
