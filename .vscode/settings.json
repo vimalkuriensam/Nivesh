@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/7f6fd09a-0eb0-4afc-9a68-a53bd275b0c6/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/samaveshtest",
+  "appService.deploySubpath": "."
+}

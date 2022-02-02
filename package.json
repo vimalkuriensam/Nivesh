@@ -1,0 +1,33 @@
+{
+  "name": "Nivesh",
+  "version": "1.0.0",
+  "description": "Nivesh node js api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "mssql": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.9.0",
+    "cors": "^2.3.1",
+    "express": "^4.14.0",
+    "express-validator": "^2.6.0",
+    "jsonwebtoken": "^7.4.3",
+    "ms": "^2.1.1",
+    "mssql": "^4.3.0",
+    "mysql": "^2.11.1",
+    "request": "^2.88.0",
+    "sendotp": "^1.2.9",
+    "sql": "^0.78.0"
+  },
+  "engines": {
+    "node": "6.9.4"
+  }
+}
