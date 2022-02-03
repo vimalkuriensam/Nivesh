@@ -53,6 +53,9 @@ const handleExternalUrls = (req, resp) => {
 };
 
 app.use(externalUrls, handleExternalUrls);
+
+app.get("/ping", (req, res) => res.send("pong"));
+
 app.get("*", function (req, res) {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
