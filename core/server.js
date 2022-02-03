@@ -45,7 +45,7 @@ const getRedirectUrl = (oldUrl) =>
 
 const handleExternalUrls = (req, resp) => {
   const redirectURL = `${getRedirectUrl(req.baseUrl + req.path)}`;
-  resp.status(301).redirect(redirectURL);
+  resp.redirect(301, redirectURL);
 };
 
 app.use(externalUrls, handleExternalUrls);
