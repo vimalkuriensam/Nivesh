@@ -53,7 +53,7 @@ app.use(externalUrls, handleExternalUrls);
 app.use(internalUrls, (req, res) => {
   if (internalMapping[req["_parsedOriginalUrl"]["pathname"]])
     res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]]);
-  else res.send("/");
+  else res.redirect("/");
 });
 
 app.get("/*", function (req, res) {
