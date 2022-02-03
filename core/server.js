@@ -55,6 +55,7 @@ app.use(internalUrls, (req, res) =>
 );
 
 app.get("*", function (req, res) {
+  console.log(req["_parsedOriginalUrl"]);
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
