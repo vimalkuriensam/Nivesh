@@ -7,6 +7,7 @@ const { response } = require("express");
 const express = require("express"),
   bodyParser = require("body-parser");
 const path = require("path");
+const { internalMapping } = require("./internalMappling");
 
 //server initilization starts here.
 app = express();
@@ -37,24 +38,23 @@ const mapping = {
 };
 
 const externalUrls = Object.keys(mapping);
-const getRedirectUrl = (oldUrl) => {
-  console.log("ext" + externalUrls);
-  console.log("old" + oldUrl);
-  console.log(mapping.hasOwnProperty(oldUrl));
-  const url = mapping.hasOwnProperty(oldUrl) ? mapping[oldUrl] : "";
-  console.log("url" + url);
-  return url;
-};
+const internalUrls = Object.keys(internalMapping);
+
+const getRedirectUrl = (oldUrl) =>
+  mapping.hasOwnProperty(oldUrl) ? mapping[oldUrl] : "";
+
 const handleExternalUrls = (req, resp) => {
   const redirectURL = `${getRedirectUrl(req.baseUrl + req.path)}`;
-  console.log(req.query);
-  console.log(redirectURL);
   resp.status(301).redirect(redirectURL);
 };
 
 app.use(externalUrls, handleExternalUrls);
 
-app.get("*", function (req, res) {
+app.use(internalUrls, (req, res) =>
+  res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]])
+);
+
+app.get("/", function (req, res) {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
@@ -91,8 +91,8 @@ app.use(function (req, res, next) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-var port = process.env.PORT || 80;
-app.listen(port);
-console.log(`Server is Started and listening on  ${port}`);
+const PORT = process.env.PORT || 80;
+
+app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
 
 module.exports = app;

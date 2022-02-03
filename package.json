@@ -4,10 +4,12 @@
   "description": "Nivesh node js api",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "devDependencies": {
-    "mssql": "^3.3.0"
+    "mssql": "^3.3.0",
+    "nodemon": "^2.0.15"
   },
   "repository": {
     "type": "git",
