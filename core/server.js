@@ -54,7 +54,7 @@ app.use(internalUrls, (req, res) =>
   res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]])
 );
 
-app.get("/", function (req, res) {
+app.get("*", function (req, res) {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
