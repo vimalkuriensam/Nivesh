@@ -50,9 +50,11 @@ const handleExternalUrls = (req, resp) => {
 
 app.use(externalUrls, handleExternalUrls);
 
-app.use(internalUrls, (req, res) =>
-  res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]])
-);
+app.use(internalUrls, (req, res) => {
+  if (internalMapping[req["_parsedOriginalUrl"]["pathname"]])
+    res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]]);
+  else res.send("/");
+});
 
 app.get("/*", function (req, res) {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
