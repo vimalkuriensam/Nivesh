@@ -3,11 +3,11 @@
  */
 
 //Required node modulus.
-const { response } = require("express");
 const express = require("express"),
   bodyParser = require("body-parser");
 const path = require("path");
-const { internalMapping } = require("./internalMappling");
+const { externalMapping } = require("./externalMapping");
+const { internalMapping } = require("./internalMapping");
 
 //server initilization starts here.
 app = express();
@@ -16,32 +16,11 @@ app.get("/", function (req, res) {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
-const mapping = {
-  "/webapp": "http://app.nivesh.com",
-  "/gyan/all-you-should-know-about-liquid-funds":
-    "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/",
-  "/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns":
-    "https://blog.nivesh.com/",
-  "/gyan/take-baby-steps-towards-investment-with-ultra-short-term-funds":
-    "https://blog.nivesh.com/mf/debt/what-are-ultra-short-term-funds",
-  "/crm": "https://crm.nivesh.com",
-  "/Providential_CMS": "https://crm.nivesh.com",
-  "/webapp/": "http://app.nivesh.com",
-  "/gyan/all-you-should-know-about-liquid-funds/":
-    "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/",
-  "/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns/":
-    "https://blog.nivesh.com/",
-  "/gyan/take-baby-steps-towards-investment-with-ultra-short-term-funds/":
-    "https://blog.nivesh.com/mf/debt/what-are-ultra-short-term-funds",
-  "/crm/": "https://crm.nivesh.com",
-  "/Providential_CMS/": "https://crm.nivesh.com",
-};
-
-const externalUrls = Object.keys(mapping);
+const externalUrls = Object.keys(externalMapping);
 const internalUrls = Object.keys(internalMapping);
 
 const getRedirectUrl = (oldUrl) =>
-  mapping.hasOwnProperty(oldUrl) ? mapping[oldUrl] : "";
+  externalMapping.hasOwnProperty(oldUrl) ? externalMapping[oldUrl] : "";
 
 const handleExternalUrls = (req, resp) => {
   const redirectURL = `${getRedirectUrl(req.baseUrl + req.path)}`;
