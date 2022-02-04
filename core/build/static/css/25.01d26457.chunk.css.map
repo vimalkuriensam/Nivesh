@@ -1,0 +1,1 @@
+{"version":3,"sources":["Retirement.css"],"names":[],"mappings":"AAAA,uBACU,UAAY,CACZ,eACV,CACA,6BACU,UACV,CAEA,oBACI,UACJ","file":"25.01d26457.chunk.css","sourcesContent":[".custom-table>tbody ul{\r\n          color: black;\r\n          font-weight: 600;\r\n}\r\n.custom-table>tbody>tr>td ul{\r\n          color: black;\r\n}\r\n\r\n#arncode-section li{\r\n    color: white;\r\n}"]}
