@@ -1,5 +1,5 @@
 const externalMapping = {
-  "/webapp/*": "https://app.nivesh.com",
+  "/webapp": "https://app.nivesh.com",
   "/webapp": "https://app.nivesh.com",
   "/gyan/all-you-should-know-about-liquid-funds/*":
     "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/",

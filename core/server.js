@@ -12,9 +12,6 @@ const { internalMapping } = require("./internalMapping");
 //server initilization starts here.
 app = express();
 app.use(express.static(path.resolve(__dirname, "build")));
-app.get("/", function (req, res) {
-  res.sendFile(path.resolve(__dirname, "build", "index.html"));
-});
 
 const externalUrls = Object.keys(externalMapping);
 const internalUrls = Object.keys(internalMapping);
@@ -27,15 +24,15 @@ const handleExternalUrls = (req, resp) => {
   resp.redirect(301, redirectURL);
 };
 
+app.use(internalUrls, (req, res) => {
+  res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]]);
+});
+
 app.use(externalUrls, handleExternalUrls);
 
-app.use(internalUrls, (req, res) =>
-  res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]])
-);
-
-app.get("*", (req, res) =>
-  res.sendFile(path.resolve(__dirname, "build", "index.html"))
-);
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "build", "index.html"));
+});
 
 /**
  * Inner function here server the purpuse of 'OPTIONS' method which is used in most of front end js libraries.
