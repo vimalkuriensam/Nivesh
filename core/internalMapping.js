@@ -131,12 +131,8 @@ const internalMapping = {
     "https://www.nivesh.com/partners/become-mutual-fund-distributors/",
   "/monthy-sip/": "https://www.nivesh.com/calculator/sip",
   "/lumpsum-investment/": "https://www.nivesh.com/calculator/lumpsum",
-  "/plan-for-retirement/": "https://www.nivesh.com/plan-for-retirement/",
-  "/save-for-children/": "https://www.nivesh.com/save-for-children/",
-  "/save-tax/": "https://www.nivesh.com/save-tax/",
-  "/build-long-term-wealth/": "https://www.nivesh.com/build-long-term-wealth/",
+
   "/about/": "https://www.nivesh.com/about-us",
-  "/contact-us/": "https://www.nivesh.com/contact-us/",
   "/testimonials/": "https://www.nivesh.com/testimonials/",
   "/nism-certifications-exam/":
     "https://www.nivesh.com/nism-certification-exam",
