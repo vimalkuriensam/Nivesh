@@ -1,7 +1,6 @@
 const internalMapping = {
   "/gyan/": "http://blog.nivesh.com/",
 
-  "/our-products/mutual-funds/": "https://www.nivesh.com/MutualFund",
   "/our-products/mutual-funds/hybrid/":
     "https://www.nivesh.com/HybridMutualFund",
   "/our-products/mutual-funds/hybrid/dynamic-asset-allocation/":
