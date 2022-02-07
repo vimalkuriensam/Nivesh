@@ -1,7 +1,7 @@
 const internalMapping = {
-  "/gyan": "http://blog.nivesh.com/",
-  "/our-products/mutual-funds": "https://www.nivesh.com/MutualFund",
-  "/our-products/mutual-funds/hybrid":
+  "/gyan/": "http://blog.nivesh.com/",
+  "/our-products/mutual-funds/": "https://www.nivesh.com/MutualFund",
+  "/our-products/mutual-funds/hybrid/":
     "https://www.nivesh.com/HybridMutualFund",
   "/our-products/mutual-funds/hybrid/dynamic-asset-allocation/":
     "https://www.nivesh.com/DynamicAssetAllocationfunds",
@@ -57,7 +57,7 @@ const internalMapping = {
     "https://www.nivesh.com/flexicapfunds",
   "/our-products/mutual-funds/equity/mid-cap-fund/":
     "https://www.nivesh.com/midcapfunds",
-  "/our-products/mutual-funds/equity/multi-cap-fund":
+  "/our-products/mutual-funds/equity/multi-cap-fund/":
     "https://www.nivesh.com/multicapfunds",
   "/our-products/mutual-funds/equity/large-cap-fund/":
     "https://www.nivesh.com/largecapfunds",
