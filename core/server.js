@@ -1,47 +1,23 @@
-﻿/**
- *This file creates a server for serving requirements.
- */
-
-//Required node modulus.
-const express = require("express"),
-  bodyParser = require("body-parser");
+﻿const express = require("express");
 const path = require("path");
-const { externalMapping } = require("./externalMapping");
-const { internalMapping } = require("./internalMapping");
+const router = require("./redirects");
 
-//server initilization starts here.
+const publicPath = path.join(__dirname, "build");
+
 app = express();
-app.use(express.static(path.resolve(__dirname, "build")));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static(publicPath));
 
-const externalUrls = Object.keys(externalMapping);
-const internalUrls = Object.keys(internalMapping);
+const PORT = process.env.PORT || 3000;
 
-const getRedirectUrl = (oldUrl) =>
-  externalMapping.hasOwnProperty(oldUrl) ? externalMapping[oldUrl] : "";
+app.use(router);
 
-const handleExternalUrls = (req, resp) => {
-  const redirectURL = `${getRedirectUrl(req.baseUrl + req.path)}`;
-  resp.redirect(301, redirectURL);
-};
+app.get("*", (req, res) => res.sendFile(path.join(publicPath, "index.html")));
 
-app.use(internalUrls, (req, res) => {
-  res.redirect(301, internalMapping[req["_parsedOriginalUrl"]["pathname"]]);
-});
-
-app.use(externalUrls, handleExternalUrls);
-
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "build", "index.html"));
-});
-
-/**
- * Inner function here server the purpuse of 'OPTIONS' method which is used in most of front end js libraries.
- */
 app.use(function (req, res, next) {
   if (req.method === "OPTIONS") {
     var headers = {};
-    // IE8 does not allow domains to be specified, just the *
-    // headers["Access-Control-Allow-Origin"] = req.headers.origin;
     headers["Access-Control-Allow-Origin"] = "*";
     headers["Access-Control-Allow-Methods"] = "POST, GET, PUT, DELETE, OPTIONS";
     headers["Access-Control-Allow-Credentials"] = false;
@@ -62,11 +38,6 @@ app.use(function (req, res, next) {
     next();
   }
 });
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-
-const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
 
