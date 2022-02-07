@@ -1,5 +1,7 @@
 const externalMapping = {
   // "/webapp/": "https://app.nivesh.com",
+  "/abc/":
+    "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/",
   "/gyan/all-you-should-know-about-liquid-funds/":
     "https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/",
   "/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns/":
