@@ -27,7 +27,9 @@ const handleUrls = ({ urlList, path }) => {
     )
     .sort((a, b) => b.length - a.length)[0];
   let extraLink = path.replace(urlMatch, "");
-  extraLink = extraLink.includes("undefined") ? "" : extraLink;
+  extraLink = extraLink.includes("undefined")
+    ? extraLink.replace("undefined", "")
+    : extraLink;
   const isLastCharSlash =
     urlList[urlMatch][urlList[urlMatch].length - 1] == "/";
   return { urlMatch, isLastCharSlash, extraLink };
