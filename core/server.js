@@ -11,7 +11,7 @@ app.use(express.static(publicPath));
 
 const PORT = process.env.PORT || 3000;
 
-app.use(router);
+// app.use(router);
 
 app.get("*", (req, res) => res.sendFile(path.join(publicPath, "index.html")));
 

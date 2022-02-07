@@ -32,6 +32,7 @@ const handleUrls = ({ urlList, path }) => {
     : extraLink;
   const isLastCharSlash =
     urlList[urlMatch][urlList[urlMatch].length - 1] == "/";
+  console.log(urlMatch, isLastCharSlash, extraLink);
   return { urlMatch, isLastCharSlash, extraLink };
 };
 
