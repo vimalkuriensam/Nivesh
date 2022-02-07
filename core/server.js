@@ -1,6 +1,5 @@
 ﻿const express = require("express");
 const path = require("path");
-const router = require("./redirects");
 
 const publicPath = path.join(__dirname, "build");
 
@@ -10,8 +9,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(publicPath));
 
 const PORT = process.env.PORT || 3000;
-
-// app.use(router);
 
 app.get("*", (req, res) => res.sendFile(path.join(publicPath, "index.html")));
 

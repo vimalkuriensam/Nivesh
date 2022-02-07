@@ -1,5 +1,6 @@
 const internalMapping = {
   "/gyan/": "http://blog.nivesh.com/",
+
   "/our-products/mutual-funds/": "https://www.nivesh.com/MutualFund",
   "/our-products/mutual-funds/hybrid/":
     "https://www.nivesh.com/HybridMutualFund",
@@ -122,6 +123,7 @@ const internalMapping = {
     "https://www.nivesh.com/peer-to-peer-lending/liquiloans/",
   "/our-products/peer-to-peer-lending/fairassets-technologies-india-pvt-ltd/":
     "https://www.nivesh.com/peer-to-peer-lending/faircent",
+
   "/partners/": "https://www.nivesh.com/partners/",
   "/partners/become-mutual-fund-distributors/":
     "https://www.nivesh.com/partners/become-mutual-fund-distributors/",
@@ -129,6 +131,7 @@ const internalMapping = {
     "https://www.nivesh.com/partners/all-about-amfi-arn-code/",
   "/partners/grow-mutual-fund-distribution-business/":
     "https://www.nivesh.com/partners/become-mutual-fund-distributors/",
+
   "/monthy-sip/": "https://www.nivesh.com/calculator/sip",
   "/lumpsum-investment/": "https://www.nivesh.com/calculator/lumpsum",
   "/about/": "https://www.nivesh.com/about-us",

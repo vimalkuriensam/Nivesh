@@ -1,7 +1,0 @@
-location /gyan {
-    rewrite ^/gyan(.*)$ http://blog.nivesh.com/$1 redirect;
-    rewrite ^/gyan/all-you-should-know-about-liquid-funds(.*)$ https://blog.nivesh.com/mf/debt/all-you-should-know-about-liquid-funds/$1 redirect;
-    rewrite ^/gyan/fmps-a-perfect-choice-for-investors-looking-for-steady-returns(.*)$ https://blog.nivesh.com/$1 redirect;
-    rewrite ^/gyan(.*)$ https://blog.nivesh.com/mf/debt/what-are-ultra-short-term-funds/$1 redirect;
-    return 301;
-}
