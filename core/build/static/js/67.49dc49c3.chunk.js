@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[67],{1260:function(s,e,n){"use strict";n.r(e);var t=n(0),i=n.n(t),a=n(1261),c=n.n(a);e.default=function(){return i.a.createElement("img",{src:c.a,alt:"",className:"img-fluid"})}},1261:function(s,e,n){s.exports=n.p+"static/media/pension-plan-1.b2104619.svg"}}]);
-//# sourceMappingURL=67.49dc49c3.chunk.js.map
