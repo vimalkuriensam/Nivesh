@@ -1,0 +1,2 @@
+(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[64],{1237:function(e,s,t){e.exports=t.p+"static/media/BLT.db2673f1.webp"},1329:function(e,s,t){"use strict";t.r(s);var i=t(2),n=t.n(i),a=t(1237),c=t.n(a);s.default=function(){return n.a.createElement("img",{src:c.a,alt:"",className:"img-responsive1"})}}}]);
+//# sourceMappingURL=64.316341fe.chunk.js.map
