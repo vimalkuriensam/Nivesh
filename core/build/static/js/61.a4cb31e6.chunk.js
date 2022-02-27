@@ -1,0 +1,2 @@
+(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[61],{1258:function(e,s,t){"use strict";t.r(s);var i=t(0),a=t.n(i),n=t(1259),c=t.n(n);s.default=function(){return a.a.createElement("img",{src:c.a,alt:"",className:"img-fluid"})}},1259:function(e,s,t){e.exports=t.p+"static/media/FD-3.6d1e6887.svg"}}]);
+//# sourceMappingURL=61.a4cb31e6.chunk.js.map
