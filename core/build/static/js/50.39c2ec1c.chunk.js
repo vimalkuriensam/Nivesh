@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[50],{1248:function(e,a,t){e.exports=t.p+"static/media/Ajay Mandal.e9e6af5f.webp"},693:function(e,a,t){"use strict";t.r(a);var s=t(0),i=t.n(s),n=t(1248),c=t.n(n);a.default=function(){return i.a.createElement("img",{src:c.a,alt:"",className:"circle-img"})}}}]);
-//# sourceMappingURL=50.39c2ec1c.chunk.js.map
