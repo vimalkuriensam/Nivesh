@@ -1,0 +1,2 @@
+(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[47],{1262:function(e,s,t){"use strict";t.r(s);var i=t(0),n=t.n(i),a=t(1263),c=t.n(a);s.default=function(){return n.a.createElement("img",{src:c.a,alt:"",className:"img-fluid"})}},1263:function(e,s,t){e.exports=t.p+"static/media/fund.66304ef4.svg"}}]);
+//# sourceMappingURL=47.31bac4dd.chunk.js.map

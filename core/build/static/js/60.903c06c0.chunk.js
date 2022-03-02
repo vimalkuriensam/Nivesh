@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[60],{1246:function(e,a,t){e.exports=t.p+"static/media/Dhananjay Chaturvedi.bdb8704c.webp"},690:function(e,a,t){"use strict";t.r(a);var i=t(0),n=t.n(i),s=t(1246),c=t.n(s);a.default=function(){return n.a.createElement("img",{src:c.a,alt:"",className:"circle-img"})}}}]);
-//# sourceMappingURL=60.903c06c0.chunk.js.map
