@@ -1,0 +1,2 @@
+(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[85],{1284:function(e,s,t){"use strict";t.r(s);var a=t(0),i=t.n(a),n=t(251),c=t.n(n);s.default=function(){return i.a.createElement("img",{src:c.a,alt:"",className:"img-fluid"})}}}]);
+//# sourceMappingURL=85.97037d26.chunk.js.map
