@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[75],{1250:function(e,t,n){e.exports=n.p+"static/media/Abimanyu.ad5cf765.mp4"},697:function(e,t,n){"use strict";n.r(t);var a=n(0),o=n.n(a),s=n(1250),i=n.n(s);t.default=function(){return o.a.createElement("video",{className:"video-fluid z-depth-1",loop:!0,controls:!0,muted:!0,preload:"none"},o.a.createElement("source",{src:i.a,type:"video/mp4"}))}}}]);
-//# sourceMappingURL=75.e4d3bc0b.chunk.js.map

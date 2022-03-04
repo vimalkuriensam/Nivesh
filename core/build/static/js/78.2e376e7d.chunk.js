@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[78],{1249:function(e,t,a){e.exports=a.p+"static/media/Ratnajeet.049ab5a6.mp4"},696:function(e,t,a){"use strict";a.r(t);var n=a(0),o=a.n(n),s=a(1249),i=a.n(s);t.default=function(){return o.a.createElement("video",{className:"video-fluid z-depth-1",loop:!0,controls:!0,muted:!0,preload:"none"},o.a.createElement("source",{src:i.a,type:"video/mp4"}))}}}]);
-//# sourceMappingURL=78.2e376e7d.chunk.js.map
