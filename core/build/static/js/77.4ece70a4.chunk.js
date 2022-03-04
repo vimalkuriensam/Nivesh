@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[77],{1251:function(e,t,a){e.exports=a.p+"static/media/Rajesh.4a213457.mp4"},698:function(e,t,a){"use strict";a.r(t);var s=a(0),o=a.n(s),i=a(1251),n=a.n(i);t.default=function(){return o.a.createElement("video",{className:"video-fluid z-depth-1",loop:!0,controls:!0,muted:!0,preload:"metadata"},o.a.createElement("source",{src:n.a,type:"video/mp4"}))}}}]);
-//# sourceMappingURL=77.4ece70a4.chunk.js.map

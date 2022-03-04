@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[49],{1244:function(t,e,a){t.exports=a.p+"static/media/Amit Malhotra.d7ff50c2.webp"},691:function(t,e,a){"use strict";a.r(e);var i=a(0),s=a.n(i),c=a(1244),n=a.n(c);e.default=function(){return s.a.createElement("img",{src:n.a,alt:"",className:"circle-img"})}}}]);
-//# sourceMappingURL=49.9df7b17f.chunk.js.map

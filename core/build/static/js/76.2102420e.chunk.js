@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[76],{1252:function(e,t,a){e.exports=a.p+"static/media/Partner.0cd4ccd5.mp4"},699:function(e,t,a){"use strict";a.r(t);var c=a(0),s=a.n(c),n=a(1252),o=a.n(n);t.default=function(){return s.a.createElement("video",{className:"video-fluid z-depth-1",loop:!0,controls:!0,muted:!0,preload:"metadata"},s.a.createElement("source",{src:o.a,type:"video/mp4"}))}}}]);
-//# sourceMappingURL=76.2102420e.chunk.js.map

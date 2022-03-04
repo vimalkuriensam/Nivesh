@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkNivesh=self.webpackChunkNivesh||[]).push([[5032],{25032:function(e,f,s){s.r(f),s.d(f,{default:function(){return i}}),s(67294);var u=s.p+"f9823ef3dfe5b73ef4f09065f079db70.webp",n=s(85893),i=function(){return(0,n.jsx)("img",{src:u,alt:"",className:"img-fluid"})}}}]);

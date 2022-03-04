@@ -1,2 +1,0 @@
-(this.webpackJsonpNivesh=this.webpackJsonpNivesh||[]).push([[71],{1245:function(e,s,t){e.exports=t.p+"static/media/Ms Shashi.336e7ba5.webp"},692:function(e,s,t){"use strict";t.r(s);var a=t(0),i=t.n(a),c=t(1245),n=t.n(c);s.default=function(){return i.a.createElement("img",{src:n.a,alt:"",className:"circle-img"})}}}]);
-//# sourceMappingURL=71.4eca3f73.chunk.js.map
