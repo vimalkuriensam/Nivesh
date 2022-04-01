@@ -7,6 +7,8 @@ app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(publicPath));
+app.use("/Content", express.static(path.resolve(__dirname, 'build','content')));
+app.use(express.static(path.resolve(__dirname, 'build')));
 
 const PORT = process.env.PORT || 3000;
 
