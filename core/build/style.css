@@ -3476,8 +3476,8 @@ input[type=checkbox] {
 .navbar-light .navbar-nav .nav-link {
   color: black;
   font-size: 18px;
-  font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
   color: black; }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -3491,7 +3491,7 @@ input[type=checkbox] {
 
 .navbar {
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 0px;
   background-color: white; }
 
@@ -3503,18 +3503,21 @@ input[type=checkbox] {
   padding: 0.25rem 1.25rem; }
 
 .dropdown-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400; }
 
 .register-button {
-  background: #E2D9D9;
-  border-radius: 5px;
+  background: #4F46BA;
+  font-size: 14px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0px;
   padding: 10px 22px;
   color: #000;
   outline: none;
   cursor: pointer;
-  margin-left: 40px; }
+  border-radius: 20px; }
 
 @media (max-width: 768px) {
   .register-button {
@@ -3523,45 +3526,46 @@ input[type=checkbox] {
 
 @media (max-width: 768px) {
   .language-selector {
-    margin-left: 0px !important;
-    margin-bottom: 10px; } }
+    margin-left: 0px !important; } }
 
 .navbar-nav {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  align-items: center; }
+  align-items: center;
+  column-gap: 20px; }
 
 @media (max-width: 768px) {
   .navbar-nav {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    align-items: initial; } }
+    align-items: initial;
+    column-gap: 20px; } }
 
 .language-selector {
-  border-radius: 4px;
-  border: 1px solid grey;
-  background: #fff;
-  color: #000;
+  font-family: 'Poppins',sans-serif;
   outline: none;
   cursor: pointer;
   margin-left: 20px;
   font-size: 16px;
-  padding: 2px 2px; }
+  z-index: 9999; }
+
+.language-selector a {
+  color: #000; }
 
 .dropdown-menu {
   width: auto; }
 
 .logo-img {
-  width: 240px !important;
-  height: 80px !important;
+  width: 180px !important;
+  height: 60px !important;
   object-fit: contain; }
 
 @media (max-width: 1024px) {
   .logo-img {
-    width: 220px !important;
-    height: 80px !important;
+    width: 180px !important;
+    height: 60px !important;
     object-fit: contain; } }
 
 .iconFlexA, .iconFlexB {
@@ -3569,18 +3573,22 @@ input[type=checkbox] {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  padding: 10px; }
+  padding: 5px; }
 
 .iconFlex1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-right: 36px; }
+  margin-right: 36px;
+  color: black; }
 
 .iconFlex2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center; }
+
+.iconFlex2 a {
+  color: white; }
 
 @media (max-width: 768px) {
   .iconFlex1 {
@@ -3599,21 +3607,29 @@ input[type=checkbox] {
 
 .iconFlexA h4 {
   margin-bottom: 0px !important;
-  font-size: 16px;
-  font-weight: 500; }
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Poppins; }
 
 .iconFlexA .fa {
-  color: white;
   font-size: 20px;
   margin-right: 10px; }
 
 .iconFlexB .fa {
-  color: white;
+  color: black;
   font-size: 24px;
   margin-right: 10px; }
 
 .iconFlexB .fa-phone:before {
   font-size: 20px; }
+
+#main-head {
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
 
 /** TOP 10 API Component CSS **/
 .api-button {
