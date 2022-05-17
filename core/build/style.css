@@ -316,6 +316,9 @@ body {
 .u-width-30 {
   width: 30% !important; }
 
+.u-width-25 {
+  width: 25% !important; }
+
 .u-width-50 {
   width: 50% !important; }
 
@@ -343,8 +346,11 @@ body {
 .u-margin-top-100 {
   margin-top: 10rem !important; }
 
-.u-margin-left-40 {
-  margin-left: 14rem !important; }
+.u-margin-top-200 {
+  margin-top: 20rem !important; }
+
+.u-margin-left-20 {
+  margin-left: 4rem !important; }
 
 .u-jc-right {
   display: flex !important;
@@ -483,6 +489,15 @@ svg .shadow {
     .bton--3:hover {
       background: #0a9bdd;
       color: #fff; }
+  .bton--4 {
+    background: #26E589;
+    border-radius: 20px 0px;
+    padding: 15px;
+    width: fit-content;
+    font-size: 32px !important;
+    font-family: "poppins-semibold"; }
+    .bton--4:hover {
+      background: #26E589; }
 
 .wave {
   position: absolute;
@@ -549,10 +564,11 @@ svg .shadow {
 .dp-cmp__heroTitle {
   position: absolute;
   top: 0rem;
-  left: 50%;
-  width: 39%;
+  left: 40% !important;
+  width: 60%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow: hidden; }
   .dp-cmp__heroTitle > * {
     font-size: 4rem; }
   .dp-cmp__heroTitle--current {
@@ -591,7 +607,7 @@ svg .shadow {
   display: flex;
   flex-direction: column; }
   .dp-cmp__cell > div > img {
-    width: 35%; }
+    width: 20%; }
 
 .dp-cmp__heroPhone {
   position: relative;
