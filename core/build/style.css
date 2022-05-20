@@ -37,6 +37,12 @@
     left: 0;
     opacity: 1; } }
 
+@keyframes smallToBig {
+  0% {
+    transform: scaleX(0.8) scaleY(0.8); }
+  100% {
+    transform: scaleX(1) scaleY(1); } }
+
 *,
 *::after,
 *::before {
@@ -434,6 +440,9 @@ svg .shadow {
 
 .u-padding-bottom-0 {
   padding-bottom: 0 !important; }
+
+.u-opacity-1 {
+  opacity: 1 !important; }
 
 .windBox {
   overflow: hidden; }
@@ -1453,7 +1462,7 @@ svg .shadow {
   border: 1px solid rgba(0, 0, 0, 0.2);
   overflow: hidden;
   display: inline-block;
-  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 1rem 1rem 2rem rgba(204, 204, 204, 0.2);
   width: 25rem; }
   .productcard__image {
     width: 100%; }
@@ -1485,7 +1494,7 @@ svg .shadow {
     max-width: 39.7rem;
     height: 28.5rem;
     transform: scale(0.8);
-    transition: 0.5s; }
+    transition: all 0.5s; }
     .productcard__cardContainer--current {
       transform: scaleX(1) scaleY(1);
       z-index: 100;
@@ -1497,14 +1506,14 @@ svg .shadow {
       position: absolute;
       z-index: 10;
       left: 3rem;
-      opacity: 0.3;
+      opacity: 1;
       z-index: -1; }
     .productcard__cardContainer--right {
       position: absolute;
       top: 0rem;
       z-index: 10;
       left: 20rem;
-      opacity: 0.3;
+      opacity: 1;
       z-index: -1; }
   .productcard__arrowLeft {
     position: absolute !important;
@@ -1609,7 +1618,7 @@ svg .shadow {
   position: absolute !important;
   transform: translateX(-50%);
   z-index: 100;
-  top: 63%;
+  top: 30rem;
   transition: 3s;
   cursor: pointer; }
   .testimonial__cardPositionAction > div > svg > path {
