@@ -1026,6 +1026,9 @@ svg .shadow {
       .dp-cmp__subscriptionBox > *:first-child {
         font-size: 2rem; } }
 
+.testimonials-img {
+  width: 15%; }
+
 .form__tooltip {
   position: relative; }
 
