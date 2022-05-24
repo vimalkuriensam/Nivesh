@@ -307,6 +307,14 @@ body {
   font-size: 1.4rem;
   color: #64607d; }
 
+@media (max-width: 767px) {
+  .title-700-b-1-1 {
+    font-family: "poppins-bold";
+    font-size: 2.4rem; }
+  .text-400-r-1-1 {
+    font-family: "poppins-regular";
+    font-size: 2rem; } }
+
 .u-margin-top-30 {
   margin-top: 3rem !important; }
 
@@ -1763,11 +1771,11 @@ svg .shadow {
 
 @media only screen and (max-width: 55rem) {
   .page-demo-partner {
-    padding: 5rem 3rem; }
+    padding: 3rem 1.6rem; }
   .page-demo-partner-digital {
-    padding: 5rem 3rem; }
+    padding: 3rem 1.6rem; }
   .page-demo-productCard {
-    padding: 0; } }
+    padding: 3rem 1.6rem; } }
 
 /*!**********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/App.css ***!
