@@ -478,7 +478,11 @@ svg .shadow {
 
 @media (max-width: 640px) {
   .u-display-desktop {
-    display: none; } }
+    display: none; }
+  .u-margin-top-200 {
+    margin-top: 10rem !important; }
+  .u-width-left-20percent {
+    margin-left: 10% !important; } }
 
 @media (min-width: 641px) {
   .u-display-phone {
@@ -547,6 +551,11 @@ svg .shadow {
     font-family: "poppins-semibold"; }
     .bton--4:hover {
       background: #26E589; }
+
+@media (max-width: 640px) {
+  .bton--4 {
+    font-size: 16px !important;
+    padding: 10px; } }
 
 .wave {
   position: absolute;
@@ -905,6 +914,8 @@ svg .shadow {
     width: 100% !important; }
     .dp-cmp__tdContainer > div > *:not(:first-child) {
       margin-top: 3rem; }
+  .dp-cmp__cell > div > img {
+    width: 45%; }
   .dp-cmp__hero {
     position: relative;
     height: 175vh;
@@ -1025,7 +1036,8 @@ svg .shadow {
   .dp-cmp__heroContainer--elements > * {
     margin-left: 41%; }
   .dp-cmp__heroPhone {
-    margin-left: 0; }
+    margin-left: 0;
+    margin-top: 10rem; }
   .dp-cmp__heroPhone--phone {
     display: none; }
   .dp-cmp__heroTitle {
