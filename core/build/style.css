@@ -1705,6 +1705,12 @@ svg .shadow {
   .testimonial__details {
     width: 31rem; } }
 
+@media (max-width: 640px) {
+  .testimonial__cardPositionAction--left {
+    display: none !important; }
+  .testimonial__cardPositionAction--right {
+    display: none !important; } }
+
 .b-row {
   max-width: 100%;
   margin: 0 auto; }
@@ -3572,7 +3578,8 @@ input[type=checkbox] {
   color: black; }
 
 .navbar-brand {
-  height: auto; }
+  height: auto;
+  padding: 0px; }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
@@ -3595,6 +3602,13 @@ input[type=checkbox] {
   margin-top: 0px;
   padding: 0px;
   background-color: white; }
+
+.navbar-toggler {
+  margin-left: auto; }
+
+.navbar-toggler-icon {
+  width: 2.5em;
+  height: 2.5em; }
 
 @media (max-width: 768px) {
   .navbar-brand {
