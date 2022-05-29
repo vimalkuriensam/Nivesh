@@ -599,6 +599,9 @@ svg .shadow {
   top: 0;
   left: 0; }
 
+.partner-breadcrumb > ol > li > a {
+  color: white !important; }
+
 .dp-cmp__hero {
   position: relative;
   width: 100%;
@@ -3393,7 +3396,7 @@ input[type=checkbox] {
   height: 100px; }
 
 .breadcrumb {
-  background-color: white;
+  background-color: #ffffff00 !important;
   margin-top: 50px;
   margin-bottom: -40px;
   font-size: 18px;
@@ -3402,7 +3405,7 @@ input[type=checkbox] {
 
 @media (max-width: 768px) {
   .breadcrumb {
-    background-color: white;
+    background-color: #ffffff00 !important;
     margin-top: 20px;
     margin-bottom: -20px;
     font-size: 16px;
