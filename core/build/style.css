@@ -602,6 +602,12 @@ svg .shadow {
 .partner-breadcrumb > ol > li > a {
   color: white !important; }
 
+.partner-breadcrumb > ol > li {
+  color: white !important; }
+
+.partner-breadcrumb > ol > li::before {
+  color: white !important; }
+
 .dp-cmp__hero {
   position: relative;
   width: 100%;
