@@ -58,55 +58,68 @@ body {
 
 @font-face {
   font-family: "poppins-bold";
-  src: url("/assets/fonts/Poppins-Bold.otf"); }
+  src: url("/assets/fonts/Poppins-Bold.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "poppins-medium";
-  src: url("/assets/fonts/Poppins-Medium.ttf"); }
+  src: url("/assets/fonts/Poppins-Medium.ttf");
+  font-display: swap; }
 
 @font-face {
   font-family: "poppins-regular";
-  src: url("/assets/fonts/Poppins-Regular.ttf"); }
+  src: url("/assets/fonts/Poppins-Regular.ttf");
+  font-display: swap; }
 
 @font-face {
   font-family: "poppins-light";
-  src: url("/assets/fonts/Poppins-Light.otf"); }
+  src: url("/assets/fonts/Poppins-Light.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "poppins-extrabold";
-  src: url("/assets/fonts/Poppins-ExtraBold.ttf"); }
+  src: url("/assets/fonts/Poppins-ExtraBold.ttf");
+  font-display: swap; }
 
 @font-face {
   font-family: "poppins-semibold";
-  src: url("/assets/fonts/Poppins-SemiBold.ttf"); }
+  src: url("/assets/fonts/Poppins-SemiBold.ttf");
+  font-display: swap; }
 
 @font-face {
   font-family: "manrope-bold";
-  src: url("/assets/fonts/manrope-bold.otf"); }
+  src: url("/assets/fonts/manrope-bold.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "manrope-extrabold";
-  src: url("/assets/fonts/manrope-extrabold.otf"); }
+  src: url("/assets/fonts/manrope-extrabold.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "manrope-medium";
-  src: url("/assets/fonts/manrope-medium.otf"); }
+  src: url("/assets/fonts/manrope-medium.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "manrope-regular";
-  src: url("/assets/fonts/manrope-regular.otf"); }
+  src: url("/assets/fonts/manrope-regular.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "manrope-semibold";
-  src: url("/assets/fonts/manrope-semibold.otf"); }
+  src: url("/assets/fonts/manrope-semibold.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "gilroy-semi-bold";
-  src: url("/assets/fonts/Gilroy-SemiBold.ttf"); }
+  src: url("/assets/fonts/Gilroy-SemiBold.ttf");
+  font-display: swap; }
 
 @font-face {
   font-family: "inter-bold";
-  src: url("/assets/fonts/Inter-Bold.ttf"); }
+  src: url("/assets/fonts/Inter-Bold.ttf");
+  font-display: swap; }
 
 .title {
   font-size: 4rem;
