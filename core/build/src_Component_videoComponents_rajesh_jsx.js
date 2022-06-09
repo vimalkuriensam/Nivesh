@@ -15,17 +15,17 @@
   \**************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Layouts_Home_Videos_Rajesh_mp4__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Layouts/Home/Videos/Rajesh.mp4 */ \"./src/Layouts/Home/Videos/Rajesh.mp4\");\n/* harmony import */ var _Rajesh_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Rajesh.png */ \"./src/Component/videoComponents/Rajesh.png\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\nvar homeyashwantImage = function homeyashwantImage() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"video\", {\n    className: \"video-fluid z-depth-1\",\n    loop: true,\n    controls: \"true\",\n    muted: true,\n    preload: \"metadata\",\n    playsInline: true,\n    poster: _Rajesh_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"source\", {\n      src: _Layouts_Home_Videos_Rajesh_mp4__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n      type: \"video/mp4\"\n    })\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (homeyashwantImage);\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/rajesh.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Layouts_Home_Videos_Rajesh_mp4__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Layouts/Home/Videos/Rajesh.mp4 */ \"./src/Layouts/Home/Videos/Rajesh.mp4\");\n/* harmony import */ var _Rajesh_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Rajesh.webp */ \"./src/Component/videoComponents/Rajesh.webp\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\nvar homeyashwantImage = function homeyashwantImage() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"video\", {\n    className: \"video-fluid z-depth-1\",\n    loop: true,\n    controls: \"true\",\n    muted: true,\n    preload: \"metadata\",\n    playsInline: true,\n    poster: _Rajesh_webp__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"source\", {\n      src: _Layouts_Home_Videos_Rajesh_mp4__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n      type: \"video/mp4\"\n    })\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (homeyashwantImage);\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/rajesh.jsx?");
 
 /***/ }),
 
-/***/ "./src/Component/videoComponents/Rajesh.png":
-/*!**************************************************!*\
-  !*** ./src/Component/videoComponents/Rajesh.png ***!
-  \**************************************************/
+/***/ "./src/Component/videoComponents/Rajesh.webp":
+/*!***************************************************!*\
+  !*** ./src/Component/videoComponents/Rajesh.webp ***!
+  \***************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"4688ccc043d38b52d0163ee07df5d66e.png\");\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/Rajesh.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"78086b190c9c10e950ea14cc5ae7261b.webp\");\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/Rajesh.webp?");
 
 /***/ }),
 

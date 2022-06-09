@@ -15,17 +15,17 @@
   \*************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Layouts_Home_Videos_Partner_mp4__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Layouts/Home/Videos/Partner.mp4 */ \"./src/Layouts/Home/Videos/Partner.mp4\");\n/* harmony import */ var _Apruv_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Apruv.png */ \"./src/Component/videoComponents/Apruv.png\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\nvar homeyashwantImage = function homeyashwantImage() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"video\", {\n    className: \"video-fluid z-depth-1\",\n    loop: true,\n    controls: \"true\",\n    muted: true,\n    preload: \"metadata\",\n    playsInline: true,\n    poster: _Apruv_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"source\", {\n      src: _Layouts_Home_Videos_Partner_mp4__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n      type: \"video/mp4\"\n    })\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (homeyashwantImage);\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/apruv.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Layouts_Home_Videos_Partner_mp4__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Layouts/Home/Videos/Partner.mp4 */ \"./src/Layouts/Home/Videos/Partner.mp4\");\n/* harmony import */ var _Apruv_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Apruv.webp */ \"./src/Component/videoComponents/Apruv.webp\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\nvar homeyashwantImage = function homeyashwantImage() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"video\", {\n    className: \"video-fluid z-depth-1\",\n    loop: true,\n    controls: \"true\",\n    muted: true,\n    preload: \"metadata\",\n    playsInline: true,\n    poster: _Apruv_webp__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"source\", {\n      src: _Layouts_Home_Videos_Partner_mp4__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n      type: \"video/mp4\"\n    })\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (homeyashwantImage);\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/apruv.jsx?");
 
 /***/ }),
 
-/***/ "./src/Component/videoComponents/Apruv.png":
-/*!*************************************************!*\
-  !*** ./src/Component/videoComponents/Apruv.png ***!
-  \*************************************************/
+/***/ "./src/Component/videoComponents/Apruv.webp":
+/*!**************************************************!*\
+  !*** ./src/Component/videoComponents/Apruv.webp ***!
+  \**************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"94ef6e6081c74ab5f238b491c7678b83.png\");\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/Apruv.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"c04e5da58adfc562e37f8952b0865a8a.webp\");\n\n//# sourceURL=webpack://Nivesh/./src/Component/videoComponents/Apruv.webp?");
 
 /***/ }),
 
