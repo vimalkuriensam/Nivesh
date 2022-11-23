@@ -111,7 +111,7 @@
         "email":  ''
       };
       window.addEventListener('load',function(){
-        document.querySelector('[type="submit"]').onclick = function(){
+        document.querySelector('form button').onclick = function(){
           var email = document.querySelector('[type="email"]').value;
           enhanced_conversion_data.email=email
         }
