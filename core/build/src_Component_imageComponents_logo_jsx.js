@@ -15,17 +15,17 @@
   \************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _images_Home_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/Home.jpg */ \"./src/Component/imageComponents/images/Home.jpg\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\nvar homeImage = function homeImage() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"a\", {\n    href: \"https://app.nivesh.com/Home/Index?SchemeCode=MMTCPAMP_DG&selectedcategoryId=10\",\n    target: \"_blank\",\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"img\", {\n      src: _images_Home_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n      alt: \"\",\n      className: \"img-responsive\"\n    })\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (homeImage);\n\n//# sourceURL=webpack://Nivesh/./src/Component/imageComponents/logo.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _images_HomeUpdated_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/HomeUpdated.jpeg */ \"./src/Component/imageComponents/images/HomeUpdated.jpeg\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\nvar homeImage = function homeImage() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"a\", {\n    href: \"https://nivesh.app.link/MQd6CWGLGtb\",\n    target: \"_blank\",\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"img\", {\n      src: _images_HomeUpdated_jpeg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n      alt: \"\",\n      className: \"img-responsive\"\n    })\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (homeImage);\n\n//# sourceURL=webpack://Nivesh/./src/Component/imageComponents/logo.jsx?");
 
 /***/ }),
 
-/***/ "./src/Component/imageComponents/images/Home.jpg":
-/*!*******************************************************!*\
-  !*** ./src/Component/imageComponents/images/Home.jpg ***!
-  \*******************************************************/
+/***/ "./src/Component/imageComponents/images/HomeUpdated.jpeg":
+/*!***************************************************************!*\
+  !*** ./src/Component/imageComponents/images/HomeUpdated.jpeg ***!
+  \***************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7f1eb6fc48a91702fe12dd2e02d0a975.jpg\");\n\n//# sourceURL=webpack://Nivesh/./src/Component/imageComponents/images/Home.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"687598b02ee0f0c88b3481085629ccd7.jpeg\");\n\n//# sourceURL=webpack://Nivesh/./src/Component/imageComponents/images/HomeUpdated.jpeg?");
 
 /***/ })
 
